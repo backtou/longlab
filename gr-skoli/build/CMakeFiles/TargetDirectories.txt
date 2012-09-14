@@ -1,0 +1,8 @@
+/home/backtou/longlab/gr-skoli/build/swig/CMakeFiles/_skoli_swig.dir
+/home/backtou/longlab/gr-skoli/build/swig/CMakeFiles/_skoli_swig_doc_tag.dir
+/home/backtou/longlab/gr-skoli/build/swig/CMakeFiles/_skoli_swig_swig_tag.dir
+/home/backtou/longlab/gr-skoli/build/lib/CMakeFiles/gnuradio-skoli.dir
+/home/backtou/longlab/gr-skoli/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/backtou/longlab/gr-skoli/build/python/CMakeFiles/pygen_python_3f049.dir
+/home/backtou/longlab/gr-skoli/build/swig/CMakeFiles/pygen_swig_2bf11.dir
+/home/backtou/longlab/gr-skoli/build/CMakeFiles/uninstall.dir

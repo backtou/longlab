@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classskoli__echo__ff" kind="class" prot="public">
+    <compoundname>skoli_echo_ff</compoundname>
+    <includes refid="skoli__echo__ff_8h" local="no">skoli_echo_ff.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classskoli__echo__ff_1ad4ea4b4f64a5c989f46fe04c6bf2bc28" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int skoli_echo_ff::d_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="43" bodyfile="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classskoli__echo__ff_1a8039440542cec018e450859b456f7cc5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float skoli_echo_ff::d_delay</definition>
+        <argsstring></argsstring>
+        <name>d_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="44" bodyfile="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classskoli__echo__ff_1ab310e04b3170df1078d068ceddbadd76" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float skoli_echo_ff::d_echo_scaling</definition>
+        <argsstring></argsstring>
+        <name>d_echo_scaling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="45" bodyfile="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classskoli__echo__ff_1a672867c2b4fa784ab46a1886ed676fb0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int skoli_echo_ff::d_delay_samples</definition>
+        <argsstring></argsstring>
+        <name>d_delay_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="46" bodyfile="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classskoli__echo__ff_1a31844f04a84413857d0c157676e8c90e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="skoli__echo__ff_8h_1a12bf9ed7555c891d82896f9a939852ca" kindref="member">skoli_echo_ff_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT skoli_echo_ff_sptr skoli_make_echo_ff</definition>
+        <argsstring>(unsigned int sample_rate, float delay, float echo_scaling)</argsstring>
+        <name>skoli_make_echo_ff</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>echo_scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classskoli__echo__ff_1a1552d205a9eade20785ec879f3aacefb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>skoli_echo_ff::skoli_echo_ff</definition>
+        <argsstring>(unsigned int sample_rate, float delay, float echo_scaling)</argsstring>
+        <name>skoli_echo_ff</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>echo_scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classskoli__echo__ff_1a31ec8e07dd699c1c112ba460c2205ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>skoli_echo_ff::~skoli_echo_ff</definition>
+        <argsstring>()</argsstring>
+        <name>~skoli_echo_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classskoli__echo__ff_1aa475b80f0f26a5deb0c92e41df508208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int skoli_echo_ff::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" line="37" bodyfile="/home/backtou/longlab/gr-skoli/include/skoli_echo_ff.h" bodystart="36" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classskoli__echo__ff_1a8039440542cec018e450859b456f7cc5" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>d_delay</name></member>
+      <member refid="classskoli__echo__ff_1a672867c2b4fa784ab46a1886ed676fb0" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>d_delay_samples</name></member>
+      <member refid="classskoli__echo__ff_1ab310e04b3170df1078d068ceddbadd76" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>d_echo_scaling</name></member>
+      <member refid="classskoli__echo__ff_1ad4ea4b4f64a5c989f46fe04c6bf2bc28" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>d_sample_rate</name></member>
+      <member refid="classskoli__echo__ff_1aa475b80f0f26a5deb0c92e41df508208" prot="public" virt="non-virtual"><scope>skoli_echo_ff</scope><name>general_work</name></member>
+      <member refid="classskoli__echo__ff_1a1552d205a9eade20785ec879f3aacefb" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>skoli_echo_ff</name></member>
+      <member refid="classskoli__echo__ff_1a31844f04a84413857d0c157676e8c90e" prot="private" virt="non-virtual"><scope>skoli_echo_ff</scope><name>skoli_make_echo_ff</name></member>
+      <member refid="classskoli__echo__ff_1a31ec8e07dd699c1c112ba460c2205ad0" prot="public" virt="non-virtual"><scope>skoli_echo_ff</scope><name>~skoli_echo_ff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

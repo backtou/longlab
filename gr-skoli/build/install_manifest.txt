@@ -1,0 +1,13 @@
+/usr/local/include/skoli/skoli_api.h
+/usr/local/include/skoli/skoli_echo_ff.h
+/usr/local/lib/libgnuradio-skoli.so
+/usr/local/lib/python2.7/dist-packages/skoli/_skoli_swig.so
+/usr/local/lib/python2.7/dist-packages/skoli/skoli_swig.py
+/usr/local/lib/python2.7/dist-packages/skoli/skoli_swig.pyc
+/usr/local/lib/python2.7/dist-packages/skoli/skoli_swig.pyo
+/usr/local/include/skoli/swig/skoli_swig.i
+/usr/local/include/skoli/swig/skoli_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/skoli/__init__.py
+/usr/local/lib/python2.7/dist-packages/skoli/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/skoli/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/skoli_echo_ff.xml
